@@ -153,3 +153,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Custom User Model
 AUTH_USER_MODEL = 'core.Account'
+
+# Discord
+DISCORD_BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
